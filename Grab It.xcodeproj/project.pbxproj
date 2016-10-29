@@ -11,6 +11,7 @@
 		863A606F1DC42940002BA5BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863A606E1DC42940002BA5BB /* ViewController.swift */; };
 		863A60711DC42940002BA5BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863A60701DC42940002BA5BB /* Assets.xcassets */; };
 		863A60741DC42941002BA5BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863A60721DC42941002BA5BB /* Main.storyboard */; };
+		86615B0E1DC4D6A70019CD26 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86615B0D1DC4D6A70019CD26 /* Parser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		863A60701DC42940002BA5BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		863A60731DC42941002BA5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		863A60751DC42941002BA5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86615B0D1DC4D6A70019CD26 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		863A606B1DC42940002BA5BB /* Grab It */ = {
 			isa = PBXGroup;
 			children = (
+				86615B0D1DC4D6A70019CD26 /* Parser.swift */,
 				863A606C1DC42940002BA5BB /* AppDelegate.swift */,
 				863A606E1DC42940002BA5BB /* ViewController.swift */,
 				863A60701DC42940002BA5BB /* Assets.xcassets */,
@@ -135,6 +138,7 @@
 			files = (
 				863A606F1DC42940002BA5BB /* ViewController.swift in Sources */,
 				863A606D1DC42940002BA5BB /* AppDelegate.swift in Sources */,
+				86615B0E1DC4D6A70019CD26 /* Parser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				863A607A1DC42941002BA5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
